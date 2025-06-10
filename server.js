@@ -5,7 +5,7 @@ const path = require("path");
 
 const app = express();
 const PORT = 3000;
-const MAX_SEATS = 30;
+const MAX_SEATS = 38;
 const DATA_FILE = path.join(__dirname, "seats.json");
 
 app.use(cookieParser());
@@ -60,6 +60,6 @@ function renderHTML(number) {
 }
 
 app.listen(PORT, () => {
-  console.log(`✅ サーバー起動中: http://localhost:${PORT}/entry`);
+  console.log(`✅ サーバー起動中: http://34.232.26.4:${PORT}/entry`);
 });
 ``
