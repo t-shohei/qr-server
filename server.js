@@ -60,6 +60,6 @@ function renderHTML(number) {
 }
 
 app.listen(PORT, () => {
-  console.log(`✅ サーバー起動中: http://34.232.26.4:${PORT}/entry`);
+  console.log(`✅ サーバー起動中: http://${IP}:${PORT}/entry`);
 });
 ``
